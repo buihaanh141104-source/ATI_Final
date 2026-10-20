@@ -1,0 +1,15 @@
+# Restricted dataset: never commit raw comments (license: no redistribution)
+/data/
+/results/private/
+/results/checkpoints/
+/.cache/
+.venv/
+__pycache__/
+*.egg-info/
+*.pt
+*.bin
+*.safetensors
+.ipynb_checkpoints/
+.DS_Store
+hs_err_pid*.log
+.pytest_cache/

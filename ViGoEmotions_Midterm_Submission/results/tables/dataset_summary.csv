@@ -1,0 +1,13 @@
+item,value
+total comments,20664
+train comments,16531
+val comments,2066
+test comments,2067
+labels (27 emotions + neutral),28
+mean labels per comment |Y|,1.909
+label density,0.0682
+distinct label sets,1485
+most frequent label (train),amusement
+rarest label (train),relief
+imbalance ratio max/min (train),4.52
+median whitespace tokens (train),11.0

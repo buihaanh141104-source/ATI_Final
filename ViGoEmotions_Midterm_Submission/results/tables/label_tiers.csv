@@ -1,0 +1,4 @@
+tier,n_labels,min_count,max_count,labels,rule
+head,9,1062,2868,"amusement, sadness, annoyance, joy, anger, disappointment, disgust, love, caring",tertiles of training positive counts (9 head / 10 mid / 9 tail)
+mid,10,765,1046,"optimism, disapproval, approval, embarrassment, admiration, curiosity, excitement, neutral, pride, gratitude",tertiles of training positive counts (9 head / 10 mid / 9 tail)
+tail,9,635,762,"desire, grief, fear, nervousness, remorse, realization, confusion, surprise, relief",tertiles of training positive counts (9 head / 10 mid / 9 tail)

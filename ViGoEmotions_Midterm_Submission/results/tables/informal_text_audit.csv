@@ -1,0 +1,17 @@
+phenomenon,n_comments,pct
+contains emoji,5153,24.94
+>= 2 emoji,1980,9.58
+ASCII emoticon (:)) =)) :v ^^),2385,11.54
+teencode / abbreviation token (dictionary),6559,31.74
+multi-char teencode token,4862,23.53
+"elongated word (letter x3+, e.g. 'quáaaa')",432,2.09
+"repeated punctuation (!!, ??, ...)",1535,7.43
+"laughter token (haha, hihi, kkk, =))",684,3.31
+@mention,727,3.52
+URL,0,0.0
+hashtag,29,0.14
+ALL-CAPS word (>= 3 letters),291,1.41
+"unaccented Vietnamese (>= 4 tokens, no diacritics)",139,0.67
+anonymised person placeholder 'per',631,3.05
+<br> / line break,614,2.97
+"profanity / vulgar slang (dm, vl, vcl, đm, cc...)",1048,5.07

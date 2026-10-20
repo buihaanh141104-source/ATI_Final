@@ -1,0 +1,10 @@
+# Colab already ships numpy/pandas/scikit-learn/torch/matplotlib/seaborn.
+transformers>=4.46,<5
+accelerate>=0.30
+sentencepiece>=0.1.99
+pyvi>=0.1.1
+emoji>=2.10
+iterative-stratification>=0.1.7
+py_vncorenlp>=0.1.4
+pyyaml>=6.0
+tabulate>=0.9

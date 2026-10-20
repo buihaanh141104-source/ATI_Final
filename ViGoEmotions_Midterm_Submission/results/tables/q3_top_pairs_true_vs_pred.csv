@@ -1,0 +1,46 @@
+model,pair,train_count,test_true_count,test_pred_count,pred/true,pair_recall
+TF-IDF + OvR LR,disappointment + sadness,904,127,121,0.953,0.394
+TF-IDF + OvR LR,anger + annoyance,699,84,167,1.988,0.488
+TF-IDF + OvR LR,sadness + grief,620,71,110,1.549,0.718
+TF-IDF + OvR LR,amusement + joy,568,70,110,1.571,0.557
+TF-IDF + OvR LR,annoyance + disapproval,469,59,104,1.763,0.305
+TF-IDF + OvR LR,joy + love,395,42,60,1.429,0.571
+TF-IDF + OvR LR,disgust + anger,379,42,102,2.429,0.524
+TF-IDF + OvR LR,embarrassment + sadness,366,37,58,1.568,0.811
+TF-IDF + OvR LR,excitement + joy,359,46,62,1.348,0.457
+TF-IDF + OvR LR,disappointment + annoyance,336,39,62,1.59,0.154
+TF-IDF + OvR LR,amusement + annoyance,336,40,72,1.8,0.25
+TF-IDF + OvR LR,fear + nervousness,322,43,51,1.186,0.512
+TF-IDF + OvR LR,disgust + annoyance,316,42,100,2.381,0.238
+TF-IDF + OvR LR,remorse + sadness,306,47,56,1.191,0.574
+TF-IDF + OvR LR,amusement + excitement,290,50,52,1.04,0.36
+BiLSTM,disappointment + sadness,904,127,89,0.701,0.291
+BiLSTM,anger + annoyance,699,84,77,0.917,0.262
+BiLSTM,sadness + grief,620,71,65,0.915,0.563
+BiLSTM,amusement + joy,568,70,63,0.9,0.286
+BiLSTM,annoyance + disapproval,469,59,27,0.458,0.119
+BiLSTM,joy + love,395,42,49,1.167,0.548
+BiLSTM,disgust + anger,379,42,55,1.31,0.262
+BiLSTM,embarrassment + sadness,366,37,39,1.054,0.73
+BiLSTM,excitement + joy,359,46,19,0.413,0.174
+BiLSTM,disappointment + annoyance,336,39,25,0.641,0.103
+BiLSTM,amusement + annoyance,336,40,30,0.75,0.125
+BiLSTM,fear + nervousness,322,43,45,1.047,0.488
+BiLSTM,disgust + annoyance,316,42,22,0.524,0.095
+BiLSTM,remorse + sadness,306,47,35,0.745,0.34
+BiLSTM,amusement + excitement,290,50,17,0.34,0.14
+PhoBERT-base-v2,disappointment + sadness,904,127,153,1.205,0.583
+PhoBERT-base-v2,anger + annoyance,699,84,85,1.012,0.417
+PhoBERT-base-v2,sadness + grief,620,71,91,1.282,0.761
+PhoBERT-base-v2,amusement + joy,568,70,80,1.143,0.4
+PhoBERT-base-v2,annoyance + disapproval,469,59,53,0.898,0.305
+PhoBERT-base-v2,joy + love,395,42,67,1.595,0.69
+PhoBERT-base-v2,disgust + anger,379,42,55,1.31,0.476
+PhoBERT-base-v2,embarrassment + sadness,366,37,49,1.324,0.865
+PhoBERT-base-v2,excitement + joy,359,46,46,1.0,0.457
+PhoBERT-base-v2,disappointment + annoyance,336,39,32,0.821,0.179
+PhoBERT-base-v2,amusement + annoyance,336,40,30,0.75,0.35
+PhoBERT-base-v2,fear + nervousness,322,43,49,1.14,0.581
+PhoBERT-base-v2,disgust + annoyance,316,42,35,0.833,0.238
+PhoBERT-base-v2,remorse + sadness,306,47,51,1.085,0.511
+PhoBERT-base-v2,amusement + excitement,290,50,43,0.86,0.42

@@ -1,0 +1,61 @@
+kg	không
+khum	không
+hem	không
+bít	biết
+pít	biết
+bt	biết
+đk	được
+mjk	mình
+mjnh	mình
+mìk	mình
+bn	bạn
+thks	cảm ơn
+sr	xin lỗi
+sry	xin lỗi
+sorry	xin lỗi
+plz	làm ơn
+pls	làm ơn
+omg	trời ơi
+clgt	cái lồn gì thế
+hum	hôm
+bh	bây giờ
+bjo	bây giờ
+bgio	bây giờ
+iêu	yêu
+zai	trai
+ziệc	việc
+zề	về
+dzui	vui
+mún	muốn
+bùn	buồn
+chời	trời
+trùi	trời
+tuỵt	tuyệt
+ngừi	người
+kiu	kêu
+lém	lắm
+òi	rồi
+gòi	rồi
+chx	chưa
+hc	học
+hs	học sinh
+sv	sinh viên
+gv	giáo viên
+đr	đúng rồi
+đg	đang
+nhma	nhưng mà
+nma	nhưng mà
+nt	nhắn tin
+trl	trả lời
+rep	trả lời
+ib	nhắn tin
+fb	facebook
+sn	sinh nhật
+hpbd	chúc mừng sinh nhật
+ace	anh chị em
+gato	ghen tị
+oke	ok
+okie	ok
+oki	ok
+okela	ok
+dthw	dễ thương

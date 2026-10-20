@@ -1,0 +1,38 @@
+# Hardware, package versions, seeds
+
+{
+  "python": "3.11.16",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "processor": "arm",
+  "cpu_count": 10,
+  "in_colab": false,
+  "cpu_brand": "Apple M1 Pro",
+  "pkg_numpy": "2.4.6",
+  "pkg_pandas": "3.0.6",
+  "pkg_scikit-learn": "1.9.1",
+  "pkg_scipy": "1.17.1",
+  "pkg_torch": "2.14.0",
+  "pkg_transformers": "4.57.6",
+  "pkg_pyvi": "0.1.1",
+  "pkg_emoji": "2.16.0",
+  "cuda_available": false,
+  "mps_available": true
+}
+
+global seed: 42 (python/numpy/torch; every config sets seed: 42)
+
+pre-trained checkpoints (Hugging Face ids, main branch at download time):
+  PhoBERT (required): vinai/phobert-base-v2
+  ViSoBERT: uitnlp/visobert
+  ViSoBERT-14GB: 5CD-AI/visobert-14gb-corpus
+  CafeBERT (optional, GPU): uitnlp/CafeBERT
+  PhoBERT-large (optional, GPU): vinai/phobert-large
+  Word segmenter: VnCoreNLP-1.2 RDRSegmenter (fallback: pyvi)
+
+resolved checkpoint revisions (commit sha):
+  vinai/phobert-base-v2: 86cd7fd4c148980922ac11a2cf5e257f2ba639e1
+  uitnlp/visobert: 196a62afad9cbe4f52a54aabad828b13f0eec59a
+  5CD-AI/visobert-14gb-corpus: 7d5ed039a28744157117d8907b31ac66fff09b13
+  uitnlp/CafeBERT: af76fcf2a04096b2b54b348a3e4eb48253c93c5d
+  vinai/phobert-large: 70e2cfcd3cce29c970aee4954ea34a32bb30afdc

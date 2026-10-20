@@ -1,0 +1,98 @@
+case_type,sample_id,style_buckets,true_labels,pred_labels,top4_probs,note
+false_negative,3919,plain,"confusion, fear",(none),"neutral(0.41), curiosity(0.27), confusion(0.13), sadness(0.09)",missed fear (p=0.00)
+false_negative,15999,short,"amusement, optimism",(none),"admiration(0.36), annoyance(0.30), disgust(0.25), anger(0.22)",missed optimism (p=0.00)
+false_negative,tik005017,short,caring,"anger, annoyance","anger(0.94), annoyance(0.69), disgust(0.15), disapproval(0.01)",missed caring (p=0.00)
+false_negative,609,plain,"amusement, relief",amusement,"amusement(0.98), excitement(0.49), curiosity(0.35), joy(0.10)",missed relief (p=0.00)
+false_negative,682,plain,"amusement, neutral","disgust, anger","anger(0.76), disgust(0.62), annoyance(0.50), surprise(0.07)",missed neutral (p=0.00)
+false_negative,12013,teencode,amusement,sadness,"sadness(1.00), disappointment(0.40), caring(0.09), nervousness(0.02)",missed amusement (p=0.00)
+false_negative,tik013247,emoji,"disappointment, sadness",realization,"realization(0.78), remorse(0.49), confusion(0.44), sadness(0.10)",missed disappointment (p=0.00)
+false_negative,20465,plain,approval,"nervousness, disappointment, sadness, annoyance","disappointment(0.82), sadness(0.82), annoyance(0.71), nervousness(0.54)",missed approval (p=0.00)
+false_negative,14149,plain,"curiosity, neutral",approval,"approval(0.78), caring(0.11), realization(0.09), gratitude(0.04)",missed curiosity (p=0.00)
+false_negative,4766,plain,"curiosity, disappointment, annoyance",curiosity,"curiosity(0.61), amusement(0.36), excitement(0.25), desire(0.04)",missed disappointment (p=0.00)
+false_negative,tik012972,emoji,"remorse, sadness",sadness,"sadness(1.00), love(0.33), disappointment(0.29), joy(0.16)",missed remorse (p=0.00)
+false_negative,4040,plain,"surprise, disappointment, annoyance","disappointment, annoyance","disappointment(0.90), annoyance(0.69), disapproval(0.41), confusion(0.27)",missed surprise (p=0.00)
+false_negative,1755,plain,"amusement, realization, disappointment, annoyance",(none),"annoyance(0.32), neutral(0.18), disapproval(0.12), caring(0.10)",missed realization (p=0.00)
+false_negative,157,emoticon,"amusement, pride","amusement, annoyance","amusement(0.99), annoyance(0.80), disappointment(0.08), disapproval(0.04)",missed pride (p=0.00)
+false_negative,469,emoji,"amusement, excitement, desire, pride","amusement, disappointment, sadness","sadness(0.69), amusement(0.66), disappointment(0.58), pride(0.35)",missed desire (p=0.00)
+false_negative,243,plain,"joy, neutral",annoyance,"annoyance(0.97), neutral(0.14), disappointment(0.11), anger(0.08)",missed joy (p=0.00)
+false_negative,you000924,long|emoji,"excitement, gratitude, surprise","admiration, gratitude","gratitude(1.00), admiration(0.85), optimism(0.49), approval(0.20)",missed surprise (p=0.00)
+false_negative,16719,emoji,"amusement, fear, grief, disgust","anger, annoyance","annoyance(0.86), anger(0.74), disgust(0.08), amusement(0.08)",missed grief (p=0.00)
+false_negative,17275,long|teencode,"disgust, disapproval","disappointment, sadness","disappointment(0.73), sadness(0.56), realization(0.40), neutral(0.36)",missed disgust (p=0.00)
+false_negative,tik005932,short,admiration,curiosity,"curiosity(1.00), desire(0.08), annoyance(0.05), amusement(0.02)",missed admiration (p=0.00)
+false_negative,1542,short|emoticon,"amusement, realization","amusement, joy, love","joy(0.79), amusement(0.70), love(0.65), excitement(0.09)",missed realization (p=0.00)
+false_negative,3743,plain,"anger, annoyance",amusement,"amusement(0.77), nervousness(0.17), confusion(0.07), excitement(0.07)",missed anger (p=0.00)
+false_negative,1655,plain,"disgust, annoyance","disappointment, sadness","sadness(0.87), disappointment(0.60), embarrassment(0.18), annoyance(0.18)",missed disgust (p=0.00)
+false_negative,32169,teencode,"sadness, annoyance","caring, sadness","sadness(0.98), caring(0.52), realization(0.12), neutral(0.05)",missed annoyance (p=0.00)
+false_negative,19684,teencode,"curiosity, confusion",(none),"annoyance(0.45), amusement(0.22), disgust(0.22), disappointment(0.12)",missed confusion (p=0.00)
+false_positive,3328,emoticon,disapproval,amusement,"amusement(1.00), annoyance(0.42), joy(0.11), disapproval(0.02)",spurious amusement (p=1.00)
+false_positive,2465,emoji,"disgust, annoyance","disappointment, sadness","sadness(1.00), disappointment(0.95), grief(0.14), annoyance(0.02)",spurious sadness (p=1.00)
+false_positive,3891,long|emoji,amusement,"amusement, joy, love","love(1.00), amusement(0.98), joy(0.57), excitement(0.12)",spurious love (p=1.00)
+false_positive,24876,plain,"sadness, annoyance",gratitude,"gratitude(1.00), sadness(0.42), admiration(0.10), love(0.06)",spurious gratitude (p=1.00)
+false_positive,23925,plain,disapproval,approval,"approval(1.00), realization(0.03), caring(0.02), optimism(0.01)",spurious approval (p=1.00)
+false_positive,6798,emoji,"disappointment, sadness",amusement,"amusement(1.00), joy(0.21), sadness(0.21), surprise(0.16)",spurious amusement (p=1.00)
+false_positive,25696,emoticon,"disappointment, annoyance",amusement,"amusement(1.00), realization(0.26), annoyance(0.24), disapproval(0.17)",spurious amusement (p=1.00)
+false_positive,tik013334,plain,admiration,"excitement, joy, optimism","optimism(1.00), joy(0.82), excitement(0.65), relief(0.06)",spurious optimism (p=1.00)
+false_positive,2618,long,"annoyance, disapproval","fear, nervousness","fear(1.00), nervousness(0.92), annoyance(0.21), amusement(0.09)",spurious fear (p=1.00)
+false_positive,tik017898,teencode,embarrassment,"fear, nervousness","fear(1.00), nervousness(0.89), embarrassment(0.36), sadness(0.13)",spurious fear (p=1.00)
+false_positive,23409,long|emoji,"amusement, love, disappointment","disappointment, sadness","sadness(1.00), disappointment(0.99), grief(0.13), amusement(0.03)",spurious sadness (p=1.00)
+false_positive,tik015891,plain,sadness,desire,"desire(1.00), embarrassment(0.41), excitement(0.25), nervousness(0.05)",spurious desire (p=1.00)
+false_positive,tik009768,plain,pride,admiration,"admiration(1.00), pride(0.32), love(0.04), joy(0.03)",spurious admiration (p=1.00)
+false_positive,12013,teencode,amusement,sadness,"sadness(1.00), disappointment(0.40), caring(0.09), nervousness(0.02)",spurious sadness (p=1.00)
+false_positive,5960,short,"caring, nervousness, annoyance","caring, sadness","sadness(1.00), caring(0.93), grief(0.33), annoyance(0.03)",spurious sadness (p=1.00)
+false_positive,189,plain,"optimism, neutral","disappointment, sadness","sadness(1.00), disappointment(0.99), realization(0.14), grief(0.13)",spurious sadness (p=1.00)
+false_positive,3777,long,"joy, admiration, sadness","joy, love, caring, admiration","love(1.00), joy(0.99), admiration(0.91), caring(0.54)",spurious love (p=1.00)
+false_positive,31716,plain,annoyance,"sadness, grief","sadness(1.00), grief(0.88), disappointment(0.40), annoyance(0.14)",spurious sadness (p=1.00)
+false_positive,you002775,long|emoji,"joy, approval","joy, admiration, approval","admiration(1.00), joy(0.67), approval(0.51), amusement(0.05)",spurious admiration (p=1.00)
+false_positive,5335,emoji,neutral,"joy, love","love(1.00), joy(0.70), caring(0.40), amusement(0.22)",spurious love (p=1.00)
+false_positive,31101,plain,"excitement, joy, admiration","joy, admiration, approval","approval(1.00), admiration(0.74), joy(0.59), excitement(0.15)",spurious approval (p=1.00)
+false_positive,tik005932,short,admiration,curiosity,"curiosity(1.00), desire(0.08), annoyance(0.05), amusement(0.02)",spurious curiosity (p=1.00)
+false_positive,32070,long,"remorse, disappointment, sadness","gratitude, realization, sadness","realization(1.00), sadness(0.95), gratitude(0.88), caring(0.17)",spurious realization (p=1.00)
+false_positive,31410,teencode,"joy, optimism","optimism, pride","pride(0.99), optimism(0.76), excitement(0.12), admiration(0.10)",spurious pride (p=0.99)
+false_positive,177,plain,"disappointment, sadness","realization, sadness","realization(0.99), sadness(0.88), disappointment(0.29), approval(0.09)",spurious realization (p=0.99)
+high_cardinality_partial,2,short|emoji,"surprise, disgust, anger","fear, disgust","disgust(0.94), fear(0.71), anger(0.48), surprise(0.26)","|Y|=3, recovered 1"
+high_cardinality_partial,5811,plain,"fear, nervousness, disappointment","fear, nervousness, annoyance","fear(1.00), nervousness(0.95), annoyance(0.53), sadness(0.23)","|Y|=3, recovered 2"
+high_cardinality_partial,24629,plain,"disappointment, annoyance, disapproval","disappointment, disapproval","disappointment(0.64), disapproval(0.56), annoyance(0.30), sadness(0.20)","|Y|=3, recovered 2"
+high_cardinality_partial,4066,emoticon,"disappointment, sadness, grief","disappointment, sadness","sadness(1.00), disappointment(0.96), grief(0.24), remorse(0.09)","|Y|=3, recovered 2"
+high_cardinality_partial,24014,short,"amusement, excitement, joy","joy, admiration","admiration(0.95), joy(0.84), amusement(0.30), love(0.11)","|Y|=3, recovered 1"
+high_cardinality_partial,16349,long|teencode,"caring, gratitude, disappointment",(none),"disapproval(0.45), annoyance(0.22), realization(0.17), sadness(0.16)","|Y|=3, recovered 0"
+high_cardinality_partial,138,emoji,"amusement, joy, love","love, sadness","love(0.99), sadness(0.82), joy(0.44), approval(0.34)","|Y|=3, recovered 1"
+high_cardinality_partial,1114,emoji,"amusement, admiration, surprise",admiration,"admiration(1.00), pride(0.23), surprise(0.14), joy(0.10)","|Y|=3, recovered 1"
+high_cardinality_partial,20918,emoticon,"amusement, love, caring",amusement,"amusement(0.91), joy(0.28), neutral(0.22), caring(0.04)","|Y|=3, recovered 1"
+high_cardinality_partial,22775,short,"fear, disgust, annoyance","fear, disgust","disgust(0.99), fear(0.87), anger(0.18), annoyance(0.04)","|Y|=3, recovered 2"
+high_cardinality_partial,21476,emoji|teencode,"surprise, confusion, annoyance",annoyance,"annoyance(0.98), disapproval(0.39), disappointment(0.31), amusement(0.18)","|Y|=3, recovered 1"
+high_cardinality_partial,3523,emoji,"joy, love, caring","joy, love, caring, gratitude, relief","joy(0.99), relief(0.87), love(0.84), gratitude(0.82)","|Y|=3, recovered 3"
+high_cardinality_partial,2808,emoticon,"amusement, excitement, optimism",optimism,"optimism(0.91), excitement(0.28), joy(0.20), sadness(0.10)","|Y|=3, recovered 1"
+high_cardinality_partial,6018,short,"amusement, excitement, joy","excitement, joy","excitement(0.99), joy(0.99), admiration(0.18), amusement(0.18)","|Y|=3, recovered 2"
+high_cardinality_partial,x000807,emoji|teencode,"amusement, optimism, realization","optimism, approval, realization","realization(0.94), optimism(0.79), approval(0.51), amusement(0.40)","|Y|=3, recovered 2"
+style_short,4010,short,"amusement, curiosity","amusement, joy","amusement(0.94), joy(0.69), curiosity(0.21), love(0.07)",exact-match error
+style_short,28483,short|emoji|teencode,"desire, gratitude",gratitude,"gratitude(1.00), desire(0.50), remorse(0.03), relief(0.02)",exact-match error
+style_short,14187,short,amusement,annoyance,"annoyance(0.92), neutral(0.49), disapproval(0.12), disgust(0.08)",exact-match error
+style_short,tik014020,short|teencode,"surprise, confusion","realization, surprise","realization(0.92), surprise(0.83), confusion(0.16), disgust(0.09)",exact-match error
+style_short,1731,short|emoticon|teencode,anger,"disappointment, sadness","sadness(0.76), disappointment(0.51), annoyance(0.45), grief(0.44)",exact-match error
+style_short,6451,short|emoji|teencode,"amusement, love",amusement,"amusement(0.98), love(0.44), joy(0.22), excitement(0.01)",exact-match error
+style_short,16742,short|emoticon|teencode,"fear, sadness, disgust","fear, disgust","fear(1.00), disgust(0.53), surprise(0.14), nervousness(0.12)",exact-match error
+style_short,1093,short|emoji,"amusement, excitement","excitement, desire","excitement(0.99), desire(0.58), joy(0.11), amusement(0.10)",exact-match error
+style_emoji_heavy,5854,emoji,"disappointment, sadness, grief","disappointment, sadness","sadness(1.00), disappointment(0.98), grief(0.03), annoyance(0.03)",exact-match error
+style_emoji_heavy,tik002729,long|emoji|teencode,"caring, remorse","caring, disappointment, sadness","caring(0.92), sadness(0.81), disappointment(0.57), disapproval(0.07)",exact-match error
+style_emoji_heavy,tik012382,emoji,"desire, remorse","desire, remorse, sadness","desire(0.96), remorse(0.95), sadness(0.86), grief(0.09)",exact-match error
+style_emoji_heavy,tik013615,short|emoji,approval,"joy, love","joy(0.97), love(0.97), admiration(0.25), excitement(0.25)",exact-match error
+style_emoji_heavy,tik017000,emoji|emoticon|teencode,"nervousness, embarrassment",embarrassment,"embarrassment(1.00), love(0.14), sadness(0.08), nervousness(0.01)",exact-match error
+style_emoji_heavy,tik023628,emoji,"pride, curiosity",pride,"pride(1.00), love(0.38), admiration(0.05), joy(0.04)",exact-match error
+style_emoji_heavy,3275,long|emoji|teencode,"surprise, sadness",sadness,"sadness(0.99), grief(0.32), disappointment(0.26), embarrassment(0.17)",exact-match error
+style_emoji_heavy,14893,long|emoji,"anger, disapproval",anger,"anger(0.95), disapproval(0.39), annoyance(0.28), disgust(0.22)",exact-match error
+style_teencode,23994,teencode,annoyance,"surprise, annoyance","surprise(0.83), annoyance(0.79), disapproval(0.34), confusion(0.23)",exact-match error
+style_teencode,32504,teencode,"optimism, approval, neutral","optimism, approval","optimism(0.87), approval(0.77), admiration(0.31), caring(0.20)",exact-match error
+style_teencode,you002081,long|teencode,"gratitude, fear","gratitude, fear, nervousness","nervousness(0.86), gratitude(0.81), fear(0.56), confusion(0.28)",exact-match error
+style_teencode,16334,teencode,"anger, disapproval",anger,"anger(0.65), disapproval(0.45), sadness(0.38), disappointment(0.22)",exact-match error
+style_teencode,you003565,long|teencode,"disappointment, sadness, grief","disappointment, sadness","sadness(1.00), disappointment(0.97), grief(0.40), love(0.06)",exact-match error
+style_teencode,23782,short|teencode,"amusement, joy","amusement, excitement, joy","joy(1.00), excitement(0.83), amusement(0.59), admiration(0.09)",exact-match error
+style_teencode,390,teencode,"anger, annoyance","disgust, anger","anger(0.99), disgust(0.69), annoyance(0.26), disapproval(0.00)",exact-match error
+style_teencode,18176,long|teencode,"optimism, caring, admiration, sadness","caring, sadness, grief","sadness(0.98), caring(0.96), grief(0.95), optimism(0.42)",exact-match error
+style_emoticon,you002161,long|emoticon,"gratitude, relief, remorse, sadness","gratitude, remorse, sadness","sadness(0.92), gratitude(0.90), remorse(0.72), relief(0.36)",exact-match error
+style_emoticon,20918,emoticon,"amusement, love, caring",amusement,"amusement(0.91), joy(0.28), neutral(0.22), caring(0.04)",exact-match error
+style_emoticon,31485,emoticon|teencode,"disappointment, annoyance","disappointment, sadness","disappointment(1.00), sadness(0.88), annoyance(0.14), remorse(0.01)",exact-match error
+style_emoticon,5287,emoticon,"amusement, disappointment, sadness","disappointment, sadness","disappointment(0.99), sadness(0.89), surprise(0.38), amusement(0.09)",exact-match error
+style_emoticon,3476,emoticon,pride,(none),"neutral(0.49), pride(0.20), approval(0.02), realization(0.01)",exact-match error
+style_emoticon,27634,emoticon,"disgust, anger, annoyance","amusement, annoyance, disapproval","amusement(0.93), annoyance(0.86), disapproval(0.62), disgust(0.14)",exact-match error
+style_emoticon,tik019862,short|emoji|emoticon,"amusement, excitement","amusement, excitement, surprise","surprise(0.83), amusement(0.83), excitement(0.78), curiosity(0.08)",exact-match error
+style_emoticon,1731,short|emoticon|teencode,anger,"disappointment, sadness","sadness(0.76), disappointment(0.51), annoyance(0.45), grief(0.44)",exact-match error

@@ -1,0 +1,20 @@
+# M1: TF-IDF (word 1-2 gram + char_wb 1-5 gram) + One-vs-Rest Logistic Regression
+run_name: tfidf_lr
+seed: 42
+split: official
+n_jobs: -1
+preprocess:
+  emoji: keep          # emojis/emoticons kept as tokens (strong emotion cue)
+  lowercase: true
+  teencode: true
+  segment: true        # pyvi word segmentation for word n-grams
+features:
+  word_ngram: [1, 2]
+  char_ngram: [1, 5]
+  min_df: 2
+  max_df: 0.9
+  word_max_features: 200000
+  char_max_features: 300000
+search:                # selected on validation Macro-F1 @ tau=0.5
+  C: [1, 2, 4, 8, 16]
+  class_weight: [null, balanced]

@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vigo"
+version = "1.1.0"
+description = "ViGoEmotions midterm: multi-label Vietnamese emotion recognition baselines"
+requires-python = ">=3.9"
+
+[project.scripts]
+vigo = "vigo.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

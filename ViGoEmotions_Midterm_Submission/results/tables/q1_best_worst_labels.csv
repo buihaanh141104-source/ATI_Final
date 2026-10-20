@@ -1,0 +1,31 @@
+model,position,rank,label,f1,train_frequency,tier
+TF-IDF + OvR LR,top-5,1,gratitude,0.8455,765,mid
+TF-IDF + OvR LR,top-5,2,embarrassment,0.7692,885,mid
+TF-IDF + OvR LR,top-5,3,amusement,0.7285,2868,head
+TF-IDF + OvR LR,top-5,4,remorse,0.7053,707,tail
+TF-IDF + OvR LR,top-5,5,fear,0.6832,745,tail
+TF-IDF + OvR LR,bottom-5,24,disappointment,0.4047,1522,head
+TF-IDF + OvR LR,bottom-5,25,confusion,0.3933,676,tail
+TF-IDF + OvR LR,bottom-5,26,realization,0.3768,687,tail
+TF-IDF + OvR LR,bottom-5,27,disapproval,0.3345,969,mid
+TF-IDF + OvR LR,bottom-5,28,neutral,0.206,821,mid
+BiLSTM,top-5,1,gratitude,0.819,765,mid
+BiLSTM,top-5,2,embarrassment,0.7538,885,mid
+BiLSTM,top-5,3,remorse,0.6946,707,tail
+BiLSTM,top-5,4,amusement,0.6857,2868,head
+BiLSTM,top-5,5,love,0.6737,1175,head
+BiLSTM,bottom-5,24,excitement,0.3797,824,mid
+BiLSTM,bottom-5,25,disappointment,0.3593,1522,head
+BiLSTM,bottom-5,26,realization,0.2436,687,tail
+BiLSTM,bottom-5,27,neutral,0.2212,821,mid
+BiLSTM,bottom-5,28,disapproval,0.1868,969,mid
+PhoBERT-base-v2,top-5,1,embarrassment,0.8807,885,mid
+PhoBERT-base-v2,top-5,2,gratitude,0.8598,765,mid
+PhoBERT-base-v2,top-5,3,amusement,0.7664,2868,head
+PhoBERT-base-v2,top-5,4,optimism,0.7609,1046,mid
+PhoBERT-base-v2,top-5,5,remorse,0.7425,707,tail
+PhoBERT-base-v2,bottom-5,24,disgust,0.5,1206,head
+PhoBERT-base-v2,bottom-5,25,confusion,0.4645,676,tail
+PhoBERT-base-v2,bottom-5,26,realization,0.4419,687,tail
+PhoBERT-base-v2,bottom-5,27,neutral,0.4225,821,mid
+PhoBERT-base-v2,bottom-5,28,disapproval,0.3646,969,mid

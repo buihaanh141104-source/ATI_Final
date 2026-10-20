@@ -1,0 +1,33 @@
+# M2: 2-layer BiLSTM + attention/max pooling, trained from scratch with BCE
+run_name: bilstm
+seed: 42
+split: official
+device: auto            # cuda if available, else cpu (MPS is slower for LSTMs; set allow_mps: true to force)
+preprocess:
+  emoji: keep
+  lowercase: true
+  teencode: true
+  segment: true         # pyvi word segmentation
+model:
+  cell: lstm            # lstm | gru
+  max_len: 100          # >= 99% of training comments (EDA: p99 = 78 segmented tokens)
+  min_freq: 2
+  max_vocab: 50000
+  emb_dim: 300
+  hidden: 256
+  layers: 2
+  emb_dropout: 0.25
+  rnn_dropout: 0.25
+  dropout: 0.3
+  pretrained_vectors: null   # optional path to a .vec file (e.g. PhoW2V / fastText cc.vi.300)
+loss:
+  name: bce
+train:
+  batch_size: 64
+  lr: 0.002
+  weight_decay: 0.0001
+  epochs: 25
+  warmup_ratio: 0.1
+  grad_clip: 1.0
+  patience: 6
+  select_metric: val_macro_f1   # validation Macro-F1 @ tau=0.5

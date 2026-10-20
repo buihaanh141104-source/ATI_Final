@@ -1,0 +1,36 @@
+# Extra model (GPU / Colab only): CafeBERT = XLM-R-large (24 layers, 560M) continually
+# pre-trained on Vietnamese. ~3-4x slower than base models; needs >= 15 GB GPU memory.
+run_name: cafebert
+seed: 42
+split: official
+device: auto
+save_model: false
+preprocess:
+  emoji: keep
+  lowercase: true
+  teencode: true
+  segment: false
+model:
+  name: uitnlp/CafeBERT
+  max_len: 160
+  pooling: cls
+  dropout: 0.1
+  prior_bias_init: true
+  gradient_checkpointing: false   # set true if CUDA OOM
+loss:
+  name: bce
+train:
+  batch_size: 16
+  grad_accum: 2              # effective batch 32
+  eval_batch_size: 64
+  lr: 1.5e-5
+  head_lr: 5.0e-4
+  llrd: 0.95
+  weight_decay: 0.01
+  epochs: 6
+  warmup_ratio: 0.1
+  scheduler: linear
+  grad_clip: 1.0
+  patience: 2
+  amp: fp16                  # T4: fp16 ; L4/A100: bf16
+  select_metric: val_macro_f1

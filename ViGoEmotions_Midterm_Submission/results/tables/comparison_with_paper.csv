@@ -1,0 +1,17 @@
+model,decoding,test_macro_f1,test_micro_f1,source
+"PhoBERT-base-v2 (paper, emoji kept)","tau=0.5, pos_weight BCE",0.5633,0.574,Hung et al. (EACL 2026) official notebooks
+"PhoBERT-base-v2 (paper, emoji->text)","tau=0.5, pos_weight BCE",0.5931,0.6042,Hung et al. (EACL 2026) official notebooks
+CafeBERT (paper),"tau=0.5, pos_weight BCE",0.6117,0.6247,Hung et al. (EACL 2026) official notebooks
+"ViSoBERT (paper, best)","tau=0.5, pos_weight BCE",0.615,0.6346,Hung et al. (EACL 2026) official notebooks
+TF-IDF + OvR LR (ours),tau=0.5,0.5419180249530499,0.5576105686387134,this work
+TF-IDF + OvR LR (ours),per-label tau (val-tuned),0.5394951459830893,0.5458186101295642,this work
+BiLSTM (ours),tau=0.5,0.5122277989183366,0.5329815303430079,this work
+BiLSTM (ours),per-label tau (val-tuned),0.5178219516882173,0.5336069779374037,this work
+PhoBERT-base-v2 (ours),tau=0.5,0.6291570772422841,0.6461059997408319,this work
+PhoBERT-base-v2 (ours),per-label tau (val-tuned),0.6336112459621044,0.6474320603376033,this work
+ViSoBERT (ours),tau=0.5,0.613289462259427,0.6316344001053602,this work
+ViSoBERT (ours),per-label tau (val-tuned),0.6125202801878997,0.625179856115108,this work
+ViSoBERT-14GB (ours),tau=0.5,0.6203694486348954,0.6423031418430393,this work
+ViSoBERT-14GB (ours),per-label tau (val-tuned),0.6226536461125256,0.6422636965683324,this work
+Ensemble (3) (ours),tau=0.5,0.6429692159379427,0.6635957187372985,this work
+Ensemble (3) (ours),per-label tau (val-tuned),0.648844963321743,0.665374363944754,this work

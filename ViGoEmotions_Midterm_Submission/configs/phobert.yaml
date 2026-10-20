@@ -1,0 +1,34 @@
+# M3 (required): PhoBERT-base-v2 + independent sigmoid head, BCE loss
+run_name: phobert
+seed: 42
+split: official
+device: auto                 # cuda > mps > cpu
+save_model: false            # true -> results/checkpoints/<run_name>/ (~540 MB)
+preprocess:
+  emoji: text                # PhoBERT vocab has almost no emoji -> Vietnamese descriptions (paper: +3 F1)
+  lowercase: true
+  teencode: true
+  segment: true              # PhoBERT expects word-segmented input ("cuộc_đời")
+model:
+  name: vinai/phobert-base-v2
+  max_len: 192               # PhoBERT max 256 positions; covers >99.9% of comments
+  pooling: cls               # cls | mean | cls_mean
+  dropout: 0.1
+  multi_sample_dropout: 1
+  prior_bias_init: true      # head bias = logit(label prior)
+loss:
+  name: bce                  # plain BCE as specified in the brief
+train:
+  batch_size: 32
+  eval_batch_size: 128
+  lr: 3.0e-5                 # top encoder layer
+  head_lr: 1.0e-3
+  llrd: 0.9                  # layer-wise lr decay
+  weight_decay: 0.01
+  epochs: 10
+  warmup_ratio: 0.1
+  scheduler: linear
+  grad_clip: 1.0
+  patience: 3
+  amp: fp16                  # CUDA only (use bf16 on A100/L4); ignored on MPS/CPU
+  select_metric: val_macro_f1   # validation Macro-F1 @ tau=0.5

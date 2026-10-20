@@ -1,0 +1,41 @@
+{
+  "run_name": "phobert",
+  "seed": 42,
+  "split": "official",
+  "device": "auto",
+  "save_model": false,
+  "preprocess": {
+    "emoji": "text",
+    "lowercase": true,
+    "teencode": true,
+    "segment": true
+  },
+  "model": {
+    "name": "vinai/phobert-base-v2",
+    "max_len": 192,
+    "pooling": "cls",
+    "dropout": 0.1,
+    "multi_sample_dropout": 1,
+    "prior_bias_init": true
+  },
+  "loss": {
+    "name": "bce"
+  },
+  "train": {
+    "batch_size": 32,
+    "eval_batch_size": 128,
+    "lr": 3e-05,
+    "head_lr": 0.001,
+    "llrd": 0.9,
+    "weight_decay": 0.01,
+    "epochs": 10,
+    "warmup_ratio": 0.1,
+    "scheduler": "linear",
+    "grad_clip": 1.0,
+    "patience": 3,
+    "amp": "fp16",
+    "select_metric": "val_macro_f1"
+  },
+  "subword_len_p99": 84.70000000000073,
+  "truncated_frac": 6.049240820277055e-05
+}

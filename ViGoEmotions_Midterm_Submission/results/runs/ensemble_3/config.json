@@ -1,0 +1,14 @@
+{
+  "type": "ensemble",
+  "members": [
+    "phobert",
+    "visobert",
+    "visobert14gb"
+  ],
+  "weights": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ],
+  "weighting": "uniform"
+}

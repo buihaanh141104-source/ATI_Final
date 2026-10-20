@@ -1,0 +1,10 @@
+,,n,n,n,pct,pct,pct
+split,,test,train,val,test,train,val
+subset,rule,,,,,,
+emoji,>= 1 emoji,536.0,4109.0,508.0,25.93,24.86,24.59
+emoji_heavy,>= 2 emoji characters,180.0,1600.0,200.0,8.71,9.68,9.68
+emoticon,>= 1 ASCII emoticon,236.0,1896.0,253.0,11.42,11.47,12.25
+long,>= 30 whitespace tokens,283.0,1951.0,244.0,13.69,11.8,11.81
+plain,"not short, no emoji/emoticon/teencode",793.0,6521.0,804.0,38.36,39.45,38.92
+short,<= 5 whitespace tokens,337.0,2805.0,343.0,16.3,16.97,16.6
+teencode,>= 1 multi-character teencode-dictionary token,509.0,3852.0,501.0,24.63,23.3,24.25

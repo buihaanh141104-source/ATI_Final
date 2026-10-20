@@ -1,0 +1,40 @@
+{
+  "run_name": "bilstm",
+  "seed": 42,
+  "split": "official",
+  "device": "auto",
+  "preprocess": {
+    "emoji": "keep",
+    "lowercase": true,
+    "teencode": true,
+    "segment": true
+  },
+  "model": {
+    "cell": "lstm",
+    "max_len": 100,
+    "min_freq": 2,
+    "max_vocab": 50000,
+    "emb_dim": 300,
+    "hidden": 256,
+    "layers": 2,
+    "emb_dropout": 0.25,
+    "rnn_dropout": 0.25,
+    "dropout": 0.3,
+    "pretrained_vectors": null
+  },
+  "loss": {
+    "name": "bce"
+  },
+  "train": {
+    "batch_size": 64,
+    "lr": 0.002,
+    "weight_decay": 0.0001,
+    "epochs": 25,
+    "warmup_ratio": 0.1,
+    "grad_clip": 1.0,
+    "patience": 6,
+    "select_metric": "val_macro_f1"
+  },
+  "vocab_size": 7207,
+  "pretrained_coverage": null
+}
